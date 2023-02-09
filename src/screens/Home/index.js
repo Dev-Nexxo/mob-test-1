@@ -1,11 +1,7 @@
-import { View, Text, StyleSheet } from "react-native";
+import { View, StyleSheet } from "react-native";
 
 const HomeScreen = () => {
-  return (
-    <View style={styles.container}>
-      <Text>Tela Inicial</Text>
-    </View>
-  );
+  return <View style={styles.container}></View>;
 };
 
 export default HomeScreen;

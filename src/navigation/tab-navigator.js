@@ -7,7 +7,7 @@ const Tab = createBottomTabNavigator();
 
 const TabNavigator = () => {
   return (
-    <Tab.Navigator screenOptions={{ headerShown: false }}>
+    <Tab.Navigator screenOptions={{ headerShown: false, tabBarLabelStyle: { fontSize: 14 } }}>
       <Tab.Screen
         name="Fretes"
         component={FreightsScreen}
