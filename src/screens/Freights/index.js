@@ -1,9 +1,11 @@
 import { View, Text, StyleSheet } from "react-native";
+import Map from "../../components/Map";
 
 const FreightsScreen = () => {
   return (
     <View style={styles.container}>
-      <Text>Tela de Fretes</Text>
+      {/* <Text>Tela de Fretes</Text> */}
+      <Map />
     </View>
   );
 };
