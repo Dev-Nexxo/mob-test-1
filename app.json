@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "nexxo-test1",
-    "slug": "nexxo-test1",
-    "version": "1.0.0",
+    "name": "Gringo App1",
+    "slug": "gringo-mobapp1",
+    "version": "0.0.1",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/adaptive-icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
+      "resizeMode": "cover",
       "backgroundColor": "#ffffff"
     },
     "updates": {

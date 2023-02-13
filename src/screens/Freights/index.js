@@ -3,7 +3,7 @@ import { View, Text, StyleSheet } from "react-native";
 const FreightsScreen = () => {
   return (
     <View style={styles.container}>
-      <Text>Tela de Fretes</Text>
+      <Text style={styles.text}>Tela de Fretes</Text>
     </View>
   );
 };
@@ -15,6 +15,10 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: "#fff",
+    backgroundColor: "#a00",
   },
+  text: {
+    fontSize: 32,
+    color: "white"
+  }
 });

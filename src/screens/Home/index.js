@@ -1,7 +1,11 @@
-import { View, StyleSheet } from "react-native";
+import { View, Text, StyleSheet } from "react-native";
 
 const HomeScreen = () => {
-  return <View style={styles.container}></View>;
+  return (
+    <View style={styles.container}>
+      <Text style={styles.text}>Tela da garagem</Text>
+    </View>
+  );
 };
 
 export default HomeScreen;
@@ -11,6 +15,10 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: "#fff",
+    backgroundColor: "#060",
   },
+  text: {
+    fontSize: 32,
+    color: "white"
+  }
 });

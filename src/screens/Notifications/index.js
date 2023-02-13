@@ -3,7 +3,7 @@ import { View, Text, StyleSheet } from "react-native";
 const NotificationsScreen = () => {
   return (
     <View style={styles.container}>
-      <Text>Tela de Notificações</Text>
+      <Text style={styles.text}>Tela de Notificações</Text>
     </View>
   );
 };
@@ -15,6 +15,10 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: "center",
     justifyContent: "center",
-    backgroundColor: "#fff",
+    backgroundColor: "#00a",
   },
+  text: {
+    fontSize: 32,
+    color: "white"
+  }
 });
